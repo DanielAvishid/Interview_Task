@@ -1,6 +1,6 @@
 import express from 'express'
-import { log } from '../../backend/middlewares/logger.middleware.js'
-import { addComment, getComments } from '../../backend/comment/comment.controller.js'
+import { log } from '../services/logger.service.js'
+import { addComment, getComments } from '../comment/comment.controller.js'
 
 export const commentRoutes = express.Router()
 

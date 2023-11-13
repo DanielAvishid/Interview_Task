@@ -1,5 +1,5 @@
-import { logger } from '../../backend/services/logger.service.js'
-import { commentService } from '../../backend/comment/comment.service.js'
+import { logger } from '../services/logger.service.js'
+import { commentService } from '../comment/comment.service.js'
 import gravatar from 'gravatar'
 
 export async function getComments(req, res) {
