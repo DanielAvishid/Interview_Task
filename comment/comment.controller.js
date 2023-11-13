@@ -1,4 +1,4 @@
-import { logger } from '../services/logger.service.js'
+import { logger } from '../../backend/services/logger.service.js'
 import { commentService } from './comment.service.js'
 import gravatar from 'gravatar'
 
