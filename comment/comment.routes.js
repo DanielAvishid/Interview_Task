@@ -1,6 +1,5 @@
 import express from 'express'
-import { log } from '../services/logger.service.js'
-import { addComment, getComments } from '../comment/comment.controller.js'
+import { addComment, getComments } from '../../backend/comment/comment.controller'
 
 export const commentRoutes = express.Router()
 

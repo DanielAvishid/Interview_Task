@@ -1,5 +1,5 @@
-import { dbService } from '../services/db.service.js'
-import { logger } from '../services/logger.service.js'
+import { dbService } from '../../backend/services/db.service.js'
+import { logger } from '../../backend/services/logger.service.js'
 
 async function query(filterBy) {
     let criteria = {}
